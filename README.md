@@ -3,7 +3,7 @@
 Simple ui to remotely turn psu on and off.
 
 ## Requirements
-* []() Python 3.6
+* []() Python 3.6+
 * []() Power supply with a remote connection
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required packages.
@@ -13,12 +13,10 @@ pip install -r /path/to/requirements.txt
 ```
 
 ## Usage
-1. Run main.py
-2. Select the com port with your psu connected
+1. Run ```python main.py```
+2. Select the com port with your psu connected ("grayed out" means it connected)
 3. Click ON or OFF to your liking
 
-when the selection grays out it means its "locked" onto a port, if you have other COM devices
-just restart the app and select the psu one.
-
+## UI Preview
 ![alt text](https://i.imgur.com/MAfgqyv.png)
 
